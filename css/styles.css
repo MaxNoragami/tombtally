@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(140.31deg, rgb(227, 228, 218) 10.286%,rgb(213, 204, 197) 100%);
+    }
+
+  .rectangle_1 {
+    position: absolute;
+    width: 20%; /* Relative width */
+    height: 25%; /* Relative height */
+    left: 20%; /* Adjust as needed */
+    top: 8%; /* Adjust as needed */
+    background: rgb(248, 244, 231);
+  }
+  
+  .rectangle_2 {
+    position: absolute;
+    width: 30%; /* Relative width */
+    height: 40%; /* Relative height */
+    left: 56%; /* Adjust as needed */
+    top: 55%; /* Adjust as needed */
+    background: rgb(242, 231, 218);
+  }
+
+  .login {
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login{
+    align-self: center;
+    margin-top: 21px;
+  }
+  .content-login-title{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .input_above{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .title{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .username{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+ 
+  .enter{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 236px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+
+  .enter:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+
+  .link{
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+  } 
+  .link:hover{
+    color:  rgb(85, 84, 137);
+  }
+  /*
+  .container{
+    display: auto;
+  }*/
+
+  .login_t {
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_t{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_t{
+    align-self: center;
+    margin-top: 21px;
+    margin-left: 12%;
+  }
+  .content-login-title_t{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .input_above_t{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .title_t{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .username_t{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password_t{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .enter_t{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 236px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+   }
+
+  
+
+  .quest-text{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 75%;
+    text-align: center;
+    margin-left: 7%;
+  }
+
+
+  .name{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .surname{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .date{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .pnumber{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .radio_menu{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .login_e {
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_e{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_e{
+    align-self: center;
+    margin-top: 21px;
+  }
+  .content-login-title_e{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .radio{
+    margin-top: 12px;
+  }
+
+  .grades{
+    margin-left: 20px;
+  }
+
+  .radio{
+    accent-color: rgb(63, 62, 104);
+  }
+  
+
+
+  .input_above_e{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .title_e{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .dis_grade{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+
+  .dis_date{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+
+  .login_f {
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_f{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_f{
+    align-self: center;
+    margin-top: 21px;
+  }
+  .content-login-title_f{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .input_above_f{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .title_f{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .username_f{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password_f{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .check{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+
+  .login_g{
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_g{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_g{
+    align-self: center;
+    margin-top: 21px;
+  }
+  .content-login-title_g{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .input_above_g{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .input_above_gg{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .title_g{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .years{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+
+  }
+
+  .checker{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+    accent-color: rgb(63, 62, 104);
+  }
+
+  .password_g{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+

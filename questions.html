@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="img/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Questions</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="rectangle_1"></div>
+        <div class="rectangle_2"></div>
+        <div class="wrapper">
+            
+
+            <!--Card 6-->
+            <div class="container_g" id="6">
+                <div class="login_g" style="padding-right: 20px;">
+                    <div class="content-login-title_g">
+                        <div id="message_g"></div>
+                        <p class="title_g">TombTally</p>
+                    </div>
+
+                    <form  id="form6" onsubmit="return saveFormData('form6');" class="content-login_g">
+
+                        <div class="content-login_g">
+                            <p class="input_above_g">Stages of Contribution</p>
+                            <input type="text" class="years" name="years" placeholder="Amount of contributive stages" required>
+                        </div>
+                        <div class="check">
+                            <div class="content-login_g">
+                                <div>
+                                <pre class="input_above_gg">Consider noncontributory 
+stages of contribution?</pre>
+                                </div>
+                                <div style="padding-left: 20px;">
+                                <input type="checkbox" class="checker" name="checker" id="my_checker" placeholder="Amount of contributive stages">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-login_g" style="padding-left: 20px;">
+                            <button type="submit" name="submit" class="enter" id="6b">Next</button>
+                        </div>
+                    </form>
+                    <div class="content-login_g" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="link" style="border: none; background: none;">Cancel Registration</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Card 5-->
+            <div class="container_f" id="5">
+                <div class="login_f" style="padding-right: 20px;">
+                    <div class="content-login-title_f">
+                        <div id="message_f"></div>
+                        <p class="title_f">TombTally</p>
+                    </div>
+                    <form  id="form5" onsubmit="return saveFormData('form5');" class="content-login_f">
+                        <div>
+                            <p class="input_above_f">Disability Date</p>
+                            <input type="date" class="date" name="date" placeholder="Date since when you've been disabled" required>
+                        </div>
+                        <div class="content-login_f" style="padding-left: 20px;">
+                            <button type="submit" name="submit" class="enter" id="5b">Next</button>
+                        </div>
+                    </form>
+                    <div class="content-login_f" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="link" style="border: none; background: none;">Cancel Registration</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Card 4-->
+            <div class="container_e" id="4">
+                <div class="login_e" style="padding-right: 20px;">
+                    <div class="content-login-title_e">
+                        <div id="message_e"></div>
+                        <p class="title_e">TombTally</p>
+                    </div>
+
+                    <form  id="form4" onsubmit="return saveFormData('form4');" class="content-login_e">
+                        <div class="content-login_e">
+                            <p class="input_above_e">Disability Grade</p>
+                            <div class="radio_menu">
+                                <div class="radio">
+                                    <input type="radio" class="dis_grade" name="dis_grade" value="0" placeholder="Healthy" required>
+                                    <input type="radio" class="dis_grade" name="dis_grade" value="1" placeholder="Average" required>
+                                    <input type="radio" class="dis_grade" name="dis_grade" value="2" placeholder="Pronounced" required>
+                                    <input type="radio" class="dis_grade" name="dis_grade" value="3" placeholder="Severe" required>
+                                </div>
+                                <div class="grades">
+                                    <p class="input_above_e">Healthy</p>
+                                    <p class="input_above_e">Average</p>
+                                    <p class="input_above_e">Pronounced</p>
+                                    <p class="input_above_e">Severe</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-login_e" style="padding-left: 20px;">
+                            <button type="submit" name="submit" class="enter" id="4b">Next</button>
+                        </div>
+                    </form>
+                    <div class="content-login_e" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="link" style="border: none; background: none;">Cancel Registration</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Card 3-->
+            <div class="container_d" id="3">
+                <div class="login" style="padding-right: 20px;">
+                    <div class="content-login-title">
+                        <div id="message"></div>
+                        <p class="title">TombTally</p>
+                    </div>
+
+                    <form  id="form3" onsubmit="return saveFormData('form3');" class="content-login">
+                        <div class="content-login">
+                            <p class="input_above">Date of Birth</p>
+                            <input type="date" class="date" name="date" placeholder="Enter your bday" required>
+                        </div>
+                        <div class="content-login">
+                            <p class="input_above">Phone Number</p>
+                            <input type="text" class="pnumber" name="pnumber" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="content-login" style="padding-left: 20px;">
+                            <button type="submit" name="submit" class="enter" id="3b">Next</button>
+                        </div>
+                    </form>
+                    <div class="content-login" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="link" style="border: none; background: none;">Cancel Registration</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Card 2-->
+            <div class="container" id="2">
+                <div class="login" style="padding-right: 20px;">
+                    <div class="content-login-title">
+                        <div id="message"></div>
+                        <p class="title">TombTally</p>
+                    </div>
+
+                    <form  id="form2" onsubmit="return saveFormData('form2');" class="content-login">
+                        <div class="content-login">
+                            <p class="input_above">Name</p>
+                            <input type="text" class="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="content-login">
+                            <p class="input_above">Surname</p>
+                            <input type="text" class="surname" name="surname" placeholder="Enter your surname" required>
+                        </div>
+                        <div class="content-login" style="padding-left: 20px;">
+                            <button type="submit" name="submit" class="enter" id="2b">Next</button>
+                        </div>
+                    </form>
+                    <div class="content-login" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="link" style="border: none; background: none;">Cancel Registration</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Card 1-->
+            <div class="container_t" id="divbutton" >
+                <div class="login_t" style="padding-right: 20px;">
+                    <div class="content-login-title_t">
+                        <p class="title_t">TombTally</p> 
+                    </div>
+                    <div class="content-login_t">
+                        <div class="content-login">
+                            <p class="quest-text">In order to identify the type of pensions you are eligible for, we require some data regarding your personal & work-related information.</p>
+                        </div>
+                        <div class="content-login" style="padding-left: 40px;">
+                            <button type="submit" name="submit" class="enter" id="1">Agree</button>
+                        </div>
+                    </div>
+                    <div class="content-login_t" style="padding-right: 35px;">
+                        <button type="submit" name="submit" class="link" style="border: none; background: none;">Cancel Registration</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <script src="scripts/question.js"></script>
+        </div>
+    </div>
+</body>
+</html>
+

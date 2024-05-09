@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylen.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="img/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <title>Noncontributory</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="rectangle_1"></div>
+        <div class="rectangle_2"></div>
+        <div class="wrapper">
+
+            <!--Card 1-->
+            <div class="container_e" id="4">
+                <div class="login" style="padding-right: 20px;">
+                    <div class="content-login-title">
+                        <p class="title" style="display: flex; justify-content: center;">TombTally</p>
+                        <p class="input_above" style="display: flex; justify-content: center;">Period #<span id="period_number" style="color: rgb(155, 154, 240);">1</span></p>
+                    </div>
+
+                    <form  id="form4" onsubmit="return saveFormData('form4');" class="content-login">
+                        
+                        <!--Repeatable data-->
+                        <div class="repeat">
+                            <div class="date_div" style="padding-left: 15px;">
+                                <!--Start Date-->
+                                <div class="content-login" style="padding-right: 30px;">
+                                    <p class="input_above">Start Date</p>
+                                    <input type="date" class="date" name="date" id="startDate"  name="StartDate"required>
+                                </div>
+        
+                                <!--End Date-->
+                                <div class="content-login">
+                                    <p class="input_above">End Date</p>
+                                    <input type="date" class="date" name="date" name="EndDate" id="endDate" required>
+                                </div>
+                            </div>
+
+
+                            <div class="content-login-select" style="padding-right: 50px;">
+                                <p class="input_above" style="display: flex; justify-content: left; padding-left: 70px;">Noncontributory period of</p>
+                                <select name="job" id="jobs" class="select" >
+                                    <!--Period of:-->
+                                    <option name="a" value="1">Fulfillment of military service within the term or with a reduced term</option>
+                                    <option name="b" value="2">Performance of military service by contract or other similar service</option>
+                                    <option name="c" value="3">Care of a child up to the age of 3 by one of the parents or guardian</option>
+                                    <option name="d" value="4">Insured and benefited from compensation for temporary incapacity for work, unemployment compensation, allowance for professional integration or reintegration</option>
+                                    <option name="e" value="5">Care of a child with a severe disability under the age of 18 or a person with a severe disability by one of the parents, by the guardian or curator, until employment as a personal assistant</option>
+                                    <option name="f" value="6">Residency period in compulsory postgraduate education</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        
+
+                        <div class="content-login-button" style="padding-left: 20px; display: flex; justify-content: center;">
+                            <button type="submit" name="submit" class="enter" id="button2">Next</button>
+                        </div>
+                    </form>
+                    <div class="content-login-link" style="padding-left: 20px; display: flex; justify-content: center;">
+                        <a href="signup.html" class="link">Cancel Registration</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Card 3-->
+            <div class="container_d" id="3">
+                <div class="login" style="padding-right: 20px;">
+                    <div class="content-login-title">
+                        <p class="title" style="display: flex; justify-content: center;">TombTally</p>
+                    </div>
+
+                    <form  id="form3" onsubmit="return saveFormData('form3');" class="content-login">
+                        
+                        <!--Repeatable data-->
+                        <div class="repeat">
+                            <div class="date_div" style="padding-left: 15px;">
+                                <!--End Date-->
+                                <div class="content-login">
+                                    <p class="input_above_e">Noncontributory periods</p>
+                                    <input type="number" class="period" name="period" name="period" id="period" placeholder="Amount of periods">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="content-login-button" style="padding-left: 20px; display: flex; justify-content: center;">
+                            <button type="submit" name="submit" class="enter" id="button1">Next</button>
+                        </div>
+                    </form>
+                    <div class="content-login-link" style="padding-left: 20px; display: flex; justify-content: center;">
+                        <button type="submit" name="submit" class="link" style="border: none; background: none;">Cancel Registration</button>
+                    </div>
+                </div>
+            </div>
+        
+            <!--script src="scripts/pc.js"></script-->
+            <script src="scripts/noncontributory.js"></script>
+        </div>
+    </div>
+</body>
+</html>
+

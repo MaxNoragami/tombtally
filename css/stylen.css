@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+  .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(140.31deg, rgb(227, 228, 218) 10.286%,rgb(213, 204, 197) 100%);
+    }
+
+  .rectangle_1 {
+    position: absolute;
+    width: 20%; /* Relative width */
+    height: 25%; /* Relative height */
+    left: 20%; /* Adjust as needed */
+    top: 8%; /* Adjust as needed */
+    background: rgb(248, 244, 231);
+  }
+  
+  .rectangle_2 {
+    position: absolute;
+    width: 30%; /* Relative width */
+    height: 40%; /* Relative height */
+    left: 56%; /* Adjust as needed */
+    top: 55%; /* Adjust as needed */
+    background: rgb(242, 231, 218);
+  }
+
+  .login {
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+   
+  }
+  
+  .login{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+  }
+
+  .content-login{
+    align-self: center;
+
+  }
+  .content-login-button{
+    align-self: center;
+    margin-top: 21px;
+  }
+.content-login-link{
+  align-self: center;
+  margin-top: 21px;
+}
+
+  .content-login-title{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .date_div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .repeat{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .content-login-select{
+    margin-top: 5px;
+  }
+
+  .content-login-col{
+    
+    margin-top: 5px;
+  }
+
+  .input_above{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .input_above_e{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+
+  .title{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .username{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+ 
+  .enter{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 236px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+
+  .enter:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+
+  .link{
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+  } 
+  .link:hover{
+    color:  rgb(85, 84, 137);
+  }
+  
+
+
+  .name{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .surname{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+
+  input::-webkit-calendar-picker-indicator{
+      display: none;
+  }
+
+  .date{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .period{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+
+  .select{
+    width: 315px;
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-left: 70px;
+  }
+  
+
+  .grades{
+    margin-left: 20px;
+  }
+
+  .radio{
+    accent-color: rgb(63, 62, 104);
+  }
+  
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  width: 64%;
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255)
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #d8d6d6;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  height: 100px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 550px;
+  overflow-y: scroll;
+}
+
+
+.content-login-rate{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rate{
+  width: 15%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.salary_by_rate{
+    width: 20%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.set_salary_rate{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 10%;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-width: 0;
+  }
+
+  .set_salary_rate:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+  .set_year_button:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+  .salary_common{
+    width: 24%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+.set_salary_common{
+  border-radius: 5px;
+  background: rgb(63, 62, 104);
+  width: 28%;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-width: 0;
+}
+
+.set_salary_common:hover{
+  background:  rgb(85, 84, 137);
+}
+
+.content-collapse{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.input_above_collapse{
+  margin: 0%;
+  color: rgb(63, 62, 104);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.set_year{
+  width: 20%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /*background-color: #d8d6d6;*/
+  text-align: left;
+}
+
+.set_year_button{
+  border-radius: 5px;
+  background: rgb(63, 62, 104);
+  width: 10%;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-width: 0;
+}
+
+.monthly_salary{
+  width: 32%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+
+  /*background-color: #d8d6d6;*/
+  text-align: center;
+}
+
+

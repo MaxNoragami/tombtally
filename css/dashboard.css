@@ -1,0 +1,2507 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+
+  .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(140.31deg, rgb(227, 228, 218) 10.286%,rgb(213, 204, 197) 100%);
+    }
+
+  .rectangle_1 {
+    position: absolute;
+    width: 20%; /* Relative width */
+    height: 25%; /* Relative height */
+    left: 10%; /* Adjust as needed */
+    top: 8%; /* Adjust as needed */
+    background: rgb(248, 244, 231);
+  }
+  
+  .rectangle_2 {
+    position: absolute;
+    width: 30%; /* Relative width */
+    height: 40%; /* Relative height */
+    left: 56%; /* Adjust as needed */
+    top: 55%; /* Adjust as needed */
+    background: rgb(242, 231, 218);
+  }
+
+  .login {
+    position: absolute;
+    width: 640px;
+    min-height: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    box-shadow:inset;
+   
+  }
+  
+  .container_e{
+    width: 100%;
+    height: auto;
+  }
+  
+  .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content-login{
+    align-self: center;
+
+  }
+  .content-login-button{
+    align-self: center;
+    margin-top: 21px;
+  }
+.content-login-link{
+  align-self: center;
+  margin-top: 21px;
+}
+
+  .content-login-title{
+    align-self: center;
+  
+
+  }
+
+  .date_div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .repeat{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .content-login-select{
+    margin-top: 5px;
+  }
+
+  .content-login-col{
+    
+    margin-top: 5px;
+  }
+
+  .input_above{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .text{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5%;
+  }
+
+  .svg{
+    height: 60%;
+    width: 60%;
+    fill: rgba(63, 62, 104, 0.3);
+  }
+
+  .pension_amount{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 86px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5%;
+  }
+
+  .pension_month{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5%;
+  }
+
+  .input_above_e{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+
+  .title{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0;
+  }
+
+  .username{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+ 
+  .enter{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 236px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+  .enter1{
+    background: rgb(63, 62, 104);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+  .enter2{
+    background: rgb(63, 62, 104);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+
+  .enter3{
+    background: rgb(63, 62, 104);
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+
+  .enter4{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 236px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+  .enter1:focus{
+    border-style: none;
+  }
+
+  .enter:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+  .enter1:hover{
+    background:  rgb(85, 84, 137);
+  }
+  .enter2:hover{
+    background:  rgb(85, 84, 137);
+  }
+  .enter3:hover{
+    background:  rgb(85, 84, 137);
+  }
+  .enter4:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+  .link{
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+  } 
+  .link:hover{
+    color:  rgb(85, 84, 137);
+  }
+  
+
+
+  .name{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .surname{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+
+  input::-webkit-calendar-picker-indicator{
+      display: none;
+  }
+
+  .date{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .period{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+
+  .select{
+    width: 315px;
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-left: 70px;
+  }
+  
+
+  .grades{
+    margin-left: 20px;
+  }
+
+  .radio{
+    accent-color: rgb(63, 62, 104);
+  }
+  
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  width: 64%;
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255)
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #d8d6d6;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  height: 100px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 550px;
+  overflow-y: scroll;
+}
+
+
+.content-login-rate{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rate{
+  width: 15%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.salary_by_rate{
+    width: 20%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.set_salary_rate{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 10%;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-width: 0;
+  }
+
+  .set_salary_rate:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+  .set_year_button:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+  .salary_common{
+    width: 24%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+.set_salary_common{
+  border-radius: 5px;
+  background: rgb(63, 62, 104);
+  width: 28%;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-width: 0;
+}
+
+.set_salary_common:hover{
+  background:  rgb(85, 84, 137);
+}
+
+.content-collapse{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.input_above_collapse{
+  margin: 0%;
+  color: rgb(63, 62, 104);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.set_year{
+  width: 20%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /*background-color: #d8d6d6;*/
+  text-align: left;
+}
+
+.set_year_button{
+  border-radius: 5px;
+  background: rgb(63, 62, 104);
+  width: 10%;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-width: 0;
+}
+
+.monthly_salary{
+  width: 32%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+
+  /*background-color: #d8d6d6;*/
+  text-align: center;
+}
+
+.windows{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: rgb(63, 62, 104);
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 0;
+
+}
+
+.region1{
+
+    border-radius: 10px 10px 0px 0px;
+    background: rgb(63, 62, 104);
+
+}
+
+.region2 {
+  height: 50vh;
+  background: rgb(254, 250, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.region2_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  padding: 5%; /* Use percentage-based padding */
+}
+
+.region2_data p {
+  margin: 2% 0; /* Use percentage-based margin */
+}
+
+
+
+.region3{
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+  background: rgb(63, 62, 104);
+}
+
+.icon{
+
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.old{
+  background-image: url('../img/old.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 3px;
+  margin-left: 30%;
+  width: 40px;
+  height: 40px;
+}
+
+.loading{
+  background-image: url('../img/loading.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 40%;
+  width: 40px;
+  height: 40px;
+}
+
+.cover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(254, 250, 243);
+}
+
+.disicon{
+  background-image: url('../img/dis.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 3px;
+  margin-left: 30%;
+  width: 40px;
+  height: 40px;
+}
+
+.desc{
+  background-image: url('../img/des.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 3px;
+  margin-left: 30%;
+  width: 40px;
+  height: 40px;
+}
+
+.log{
+  background-image: url('../img/log.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 3px;
+  margin-left: 30%;
+  width: 40px;
+  height: 40px;
+}
+
+
+.buttons_r1{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.r1{
+  padding-top: 35px;
+}
+
+
+
+
+
+/*----------------------- Personal Data --------------------------------*/
+
+
+  .login_quest {
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 1vw solid rgb(85, 84, 137); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_quest{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_quest{
+    align-self: center;
+    margin-top: 21px;
+  }
+
+  .content-login_form{
+    align-self: center;
+  }
+  .content-login-title_quest{
+    align-self: center;
+    
+
+  }
+
+  .input_above_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .title_quest{
+    margin: 0%;
+    color: rgb(85, 84, 137);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .username_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+ 
+  .enter_quest{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 236px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+  .enter_quest:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+
+  .link_quest{
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+  } 
+  .link_quest:hover{
+    color:  rgb(85, 84, 137);
+  }
+ 
+
+  .login_t_quest {
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_t_quest{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_t_quest{
+    align-self: center;
+    margin-top: 21px;
+    margin-left: 12%;
+  }
+  .content-login-title_t_quest{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .input_above_t_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .title_t_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .username_t_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password_t_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .enter_t_quest{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 236px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+   }
+
+  
+
+  .quest-text_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 75%;
+    text-align: center;
+    margin-left: 7%;
+  }
+
+
+  .name_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .surname_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .date_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .date_quest_2{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .pnumber_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .radio_menu_quest{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  .login_e_quest{
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_e_quest{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_e_quest{
+    align-self: center;
+    margin-top: 21px;
+  }
+  .content-login-title_e_quest{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .radio_quest{
+    margin-top: 12px;
+  }
+
+  .grades_quest{
+    margin-left: 20px;
+  }
+
+  .radio_quest{
+    accent-color: rgb(63, 62, 104);
+  }
+  
+
+
+  .input_above_e_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .title_e_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .dis_grade_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+
+  .dis_date_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+
+  .login_f_quest{
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_f_quest{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_f_quest{
+    align-self: center;
+    margin-top: 21px;
+  }
+  .content-login-title_f_quest{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .input_above_f_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .title_f_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .username_f_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password_f_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .check_quest{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+
+  .login_g_quest{
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+  }
+
+  .login_g_quest{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .content-login_g_quest{
+    align-self: center;
+    margin-top: 21px;
+  }
+  .content-login-title_g_quest{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .input_above_g_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .input_above_gg_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .title_g_quest{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .years_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+
+  }
+
+  .checker_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+    accent-color: rgb(63, 62, 104);
+  }
+
+  .password_g_quest{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+
+  .enter_next{
+    border-radius: 5px;
+    background: rgb(85, 84, 137);
+    width: 48px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+  .enter_prev{
+    border-radius: 5px;
+    background: rgb(85, 84, 137);
+    width: 48px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+  .enter_close{
+    border-radius: 5px;
+    background: rgb(85, 84, 137);
+    width: 80px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border-style: none;
+  }
+
+  .enter_close:hover{
+    background:  rgb(63, 62, 104);
+  }
+
+  .enter_next:hover{
+    background:  rgb(63, 62, 104);
+  }
+
+  .enter_prev:hover{
+    background:  rgb(63, 62, 104);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contributory Data ------------------------------------------------------------------------------------------------------------------*/
+
+.login_con {
+  position: absolute;
+  width: 40%; /* Relative width */
+  height: 90%;
+  min-width: 480px;
+  min-height: 480px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+  background: rgb(255, 255, 255);
+  border: 1vw solid rgb(85, 84, 137); /* Adjust border width */
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.login_con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-login_con{
+  align-self: center;
+
+}
+.content-login-button_con{
+  align-self: center;
+  margin-top: 21px;
+}
+.content-login-link_con{
+align-self: center;
+margin-top: 21px;
+}
+
+.content-login-title_con{
+  align-self: center;
+
+
+}
+
+.colll{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.date_div_con{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.repeat_con{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-login-select_con{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.content-login-col_con{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.input_above_con{
+  margin: 0%;
+  color: rgb(63, 62, 104);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.title_con{
+  margin: 0%;
+  color: rgb(85, 84, 137);
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.username_con{
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.password_con{
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.enter_con{
+  border-radius: 5px;
+  background: rgb(63, 62, 104);
+  width: 236px;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.enter_con:hover{
+  background:  rgb(85, 84, 137);
+}
+
+
+.link_con{
+  color: rgb(63, 62, 104);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+} 
+.link_con:hover{
+  color:  rgb(85, 84, 137);
+}
+
+
+
+.name_con{
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.surname_con{
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+.date_con{
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.date_con_1{
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.date_con_2{
+  width: 100%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.select_con{
+  width: 58%;
+  height: 43px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-left: 4%;
+}
+
+
+.grades_con{
+  margin-left: 20px;
+}
+
+.radio_con{
+  accent-color: rgb(85, 84, 137);
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible_con {
+  width: 58%;
+  height: 43px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-left: 23%;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible_con:hover {
+background-color: #d8d6d6;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content_con {
+height: 100px;
+padding: 0 18px;
+display: none;
+overflow: hidden;
+background-color: #f1f1f1;
+
+overflow-y: scroll;
+}
+
+
+.content-login-rate_con{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.rate_con{
+width: 15%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgb(85, 84, 137);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.salary_by_rate_con{
+  width: 20%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgb(85, 84, 137);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.set_salary_rate_con{
+  border-radius: 5px;
+  background: rgb(85, 84, 137);
+  width: 10%;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-width: 0;
+}
+
+.set_salary_rate_con:hover{
+  background:  rgb(63, 62, 104);
+}
+
+.set_year_button_con:hover{
+  background:  rgb(63, 62, 104);
+}
+
+.salary_common_con{
+  width: 24%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+
+.set_salary_common_con{
+border-radius: 5px;
+background: rgb(85, 84, 137);
+width: 28%;
+height: 48px;
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border-width: 0;
+}
+
+.set_salary_common_con:hover{
+background:  rgb(63, 62, 104);
+}
+
+.content-collapse_con{
+display: flex;
+justify-content: center;
+padding-bottom: 5px;
+}
+
+.input_above_collapse_con{
+margin: 0%;
+color: rgb(63, 62, 104);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: left;
+}
+
+.input_above_collapse_con_year{
+  margin: 0%;
+  color: rgb(63, 62, 104);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  }
+  .input_above_collapse_con_month{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    }
+
+.set_year_con{
+width: 40%;
+height: 33px;
+border-radius: 5px;
+border: 2px solid rgb(167, 166, 196);
+color: rgba(63, 62, 104, 0.8);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0%;
+padding-top: 5px;
+padding-bottom: 5px;
+/*background-color: #d8d6d6;*/
+text-align: left;
+}
+
+.set_year_button_con{
+border-radius: 5px;
+background: rgb(85, 84, 137);
+width: 18%;
+height: px;
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+border-width: 0;
+margin-left: 2%;
+}
+
+.monthly_salary_con{
+width: 48%;
+height: 33px;
+border-radius: 5px;
+border: 2px solid rgb(167, 166, 196);
+color: rgba(63, 62, 104, 0.8);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0%;
+margin-right: 4%;
+/*background-color: #d8d6d6;*/
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Non-contributory -------------------------------------------------------------------------------------------------------------*/
+
+  .login_non {
+    position: absolute;
+    width: 80%; /* Relative width */
+    max-width: 400px; /* Limit maximum width */
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2vw solid rgb(254, 250, 243); /* Adjust border width */
+    border-radius: 10px;
+    box-shadow: 0px 3vw 4vw -2.5vw rgba(166, 169, 142, 0.5); /* Adjust box-shadow */
+    background: rgb(255, 255, 255);
+   
+  }
+  
+  .login_non{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+  }
+
+  .content-login_non{
+    align-self: center;
+
+  }
+  .content-login-button_non{
+    align-self: center;
+    margin-top: 21px;
+  }
+.content-login-link_non{
+  align-self: center;
+  margin-top: 21px;
+}
+
+  .content-login-title_non{
+    align-self: center;
+    margin-top: 21px;
+
+  }
+
+  .date_div_non{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .repeat_non{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .content-login-select_non{
+    margin-top: 5px;
+  }
+
+  .content-login-col_non{
+    
+    margin-top: 5px;
+  }
+
+  .input_above_non{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .input_above_e_non{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+
+  .title_non{
+    margin: 0%;
+    color: rgb(63, 62, 104);
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .username_non{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .password_non{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+ 
+  .enter_non{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 236px;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+
+  .enter_non:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+
+  .link_non{
+    color: rgb(63, 62, 104);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+  } 
+  .link_non:hover{
+    color:  rgb(85, 84, 137);
+  }
+  
+
+
+  .name_non{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+  .surname_non{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+  }
+
+
+  input::-webkit-calendar-picker-indicator{
+      display: none;
+  }
+
+  .date_non{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .date_non_1{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .date_non_2{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+
+  .period_non{
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+  }
+
+  .select_non{
+    width: 315px;
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    margin-left: 70px;
+  }
+  
+
+  .grades_non{
+    margin-left: 20px;
+  }
+
+  .radio_non{
+    accent-color: rgb(63, 62, 104);
+  }
+  
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible_non {
+  width: 64%;
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-left: 25%;
+    background-color: rgb(255, 255, 255)
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible_non:hover {
+  background-color: #d8d6d6;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content_non {
+  height: 100px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 550px;
+  overflow-y: scroll;
+}
+
+
+.content-login-rate_non{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.rate_non{
+  width: 15%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.salary_by_rate_non{
+    width: 20%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.set_salary_rate_non{
+    border-radius: 5px;
+    background: rgb(63, 62, 104);
+    width: 10%;
+    height: 48px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-width: 0;
+  }
+
+  .set_salary_rate_non:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+  .set_year_button_non:hover{
+    background:  rgb(85, 84, 137);
+  }
+
+  .salary_common_non{
+    width: 24%;
+    height: 33px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 166, 196);
+    color: rgba(63, 62, 104, 0.8);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+
+.set_salary_common_non{
+  border-radius: 5px;
+  background: rgb(63, 62, 104);
+  width: 28%;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-width: 0;
+}
+
+.set_salary_common_non:hover{
+  background:  rgb(85, 84, 137);
+}
+
+.content-collapse_non{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.input_above_collapse_non{
+  margin: 0%;
+  color: rgb(63, 62, 104);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.set_year_non{
+  width: 20%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /*background-color: #d8d6d6;*/
+  text-align: left;
+}
+
+.set_year_button_non{
+  border-radius: 5px;
+  background: rgb(63, 62, 104);
+  width: 10%;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-width: 0;
+}
+
+.monthly_salary_non{
+  width: 32%;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+
+  /*background-color: #d8d6d6;*/
+  text-align: center;
+}
+
+.select_scion{
+  width: 315px;
+  height: 43px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  margin-left: 70px;
+}
+
+.name_scion{
+  width: 290px;
+  height: 33px;
+  border-radius: 5px;
+  border: 2px solid rgb(167, 166, 196);
+  color: rgba(63, 62, 104, 0.8);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+  text-align: left;
+}

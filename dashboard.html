@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="img/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="rectangle_1"></div>
+        <div class="rectangle_2"></div>
+        <div class="wrapper">
+   
+            <!---------------------------------------------------------------------------------------------------->
+            <!--Card 1-->
+            <div class="container_e" id="88">
+                <div class="login" style="padding-right: 20px;">
+                    <div class="content-login-title" style="display: flex; flex-direction: row; justify-content: center;">
+                        <p class="title" style="display: flex; justify-content: center;">TombTally</p>
+                        <div class="icon"></div>
+                    </div>
+
+                    <form  id="form4" onsubmit="return saveFormData('form4');" class="content-login">
+                        
+                        <div class="windows">
+                            <div class="region1">
+                                <div class="content-login">
+                                    
+                                    <div class="buttons_r1">
+                                        <button type="submit" name="submit" class="enter1" id="button1">Personal Data</button>
+                                        <button type="submit" name="submit" class="enter2" id="button2">Contributory Periods</button>
+                                        <button type="submit" name="submit" class="enter3" id="button3">Noncontributory Periods</button>
+                                    </div>
+                                        
+                                </div>
+                            </div>
+                            <div class="region2">
+                                <div class="region_2_data">
+                                    <p class="text">Your computed pension, <span class="text" id="master">username</span>:</p>
+                                    <div id="money" style="display: flex; justify-content: center;">
+                                    <?xml version="1.0" encoding="iso-8859-1"?><svg class="svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 490.2 490.2" xml:space="preserve"><g><g><path d="M137.9,245.05c0,46.6,37.8,84.4,84.4,84.4s84.4-37.8,84.4-84.4s-37.8-84.4-84.4-84.4S137.9,198.45,137.9,245.05z M229.7,194.55c0,5.1,0,5.1,5.1,5.9c3.9,0.6,7.6,1.8,11.3,3.4c2,0.9,2.7,2.3,2.1,4.4c-0.9,3.1-1.8,6.3-2.8,9.4c-0.9,2.9-1.9,3.4-4.7,2c-5.7-2.7-11.6-3.9-17.9-3.5c-1.6,0.1-3.2,0.3-4.8,1c-5.4,2.4-6.3,8.3-1.7,12c2.3,1.9,5,3.2,7.7,4.4c4.8,2,9.6,3.9,14.1,6.4c14.5,8,18.4,26.2,8.2,38.6c-3.7,4.5-8.5,7.5-14.1,9c-2.4,0.7-3.5,1.9-3.4,4.5c0.1,2.5,0,5,0,7.5c0,2.2-1.1,3.4-3.3,3.5c-2.7,0.1-5.4,0.1-8,0c-2.4,0-3.5-1.4-3.5-3.7c0-1.8,0-3.6,0-5.5c0-4-0.2-4.2-4-4.8c-4.9-0.8-9.8-1.9-14.3-4.1c-3.6-1.7-3.9-2.6-2.9-6.3c0.8-2.8,1.5-5.5,2.4-8.3c1-3.2,1.9-3.6,4.8-2.1c5,2.6,10.3,4.1,15.9,4.8c3.6,0.4,7.1,0.1,10.4-1.4c6.2-2.7,7.2-9.9,1.9-14.2c-1.8-1.5-3.8-2.6-5.9-3.5c-5.4-2.4-11.1-4.2-16.3-7.3c-8.3-5-13.6-11.8-13-22c0.7-11.5,7.2-18.6,17.7-22.4c4.3-1.6,4.4-1.5,4.4-6c0-1.5,0-3.1,0-4.6c0.1-3.4,0.7-4,4.1-4.1c1.1,0,2.1,0,3.2,0C229.6,187.25,229.6,187.25,229.7,194.55z M368.4,245.05c0,12.9-10.5,23.4-23.4,23.4s-23.4-10.5-23.4-23.4s10.5-23.4,23.4-23.4S368.4,232.15,368.4,245.05z M99.5,221.65c12.9,0,23.4,10.5,23.4,23.4s-10.5,23.4-23.4,23.4s-23.4-10.5-23.4-23.4S86.6,221.65,99.5,221.65z M0,344.15v-198.2c0-21.2,17.3-38.5,38.5-38.5H406c21.2,0,38.5,17.3,38.5,38.5v121.5h-32.9v-79.9c-3.1,0.8-6.3,1.2-9.6,1.2c-21.5,0-39-17.5-39-39c0-3.3,0.4-6.5,1.2-9.5H78.1c0.4,2.3,0.7,4.7,0.7,7.2c0,21.5-17.5,39-39,39c-2.3,0-4.6-0.2-6.8-0.6v118.4c2.2-0.4,4.5-0.6,6.8-0.6c21.5,0,39,17.5,39,39c0,2.5-0.2,4.8-0.7,7.2h228.5v32.9h-268C17.3,382.65,0,365.35,0,344.15z M439.6,355.05c2.7,0,4.9,2.2,4.9,4.9v17.8c0,2.7-2.2,4.9-4.9,4.9h-118c-2.7,0-4.9-2.2-4.9-4.9v-17.8c0-2.7,2.2-4.9,4.9-4.9H439.6z M462.5,343.95h-118c-2.7,0-4.9-2.2-4.9-4.9v-17.8c0-2.7,2.2-4.9,4.9-4.9h118c2.7,0,4.9,2.2,4.9,4.9v17.8C467.4,341.75,465.2,343.95,462.5,343.95z M490.2,282.55v17.8c0,2.7-2.2,4.9-4.9,4.9h-118c-2.7,0-4.9-2.2-4.9-4.9v-17.8c0-2.7,2.2-4.9,4.9-4.9h118C488,277.65,490.2,279.85,490.2,282.55z"/></g></g></svg>
+                                    </div>
+                                    <p class="pension_amount" ><span id="pension_result">NaN</span><span class="pension_month" id="mdl2">MDL</span></p>
+                                    <p class="text" ><span id="mdl1">Info: </span><span id="pension_info">NaN</span></p>
+                                    <p class="pension_month"><span id="vv" class="text">V_av: </span><span  id="pension_income">NaN</span><span class="text" style="font-size: 10px;" id="mdl">MDL</span></p>
+                                    <p class="text" id="ddd">Pension date: <span id="pension_date" class="pension_month">NaN</span></p>
+                                </div>
+                                <div id="disa" class="cover"></div>
+                                <div id="disar" class="loading"></div>
+                            </div>
+                            <div class="region3">
+                                <button type="submit" name="submit" class="enter1" id="button5"><div class="old"></div></button>
+                                <button type="submit" name="submit" class="enter1" id="button6"><div class="disicon"></div></button>
+                                <button type="submit" name="submit" class="enter1" id="button7"><div class="desc"></div></button>
+                                <button type="submit" name="submit" class="enter1" id="button8" ><div class="log"></div></button>
+                            </div>
+                        </div>
+                
+                    </form>
+                </div>
+            </div>
+            
+
+        <!--Personal data ------------------------------------------------------------------->
+            <!--Card 2-->
+            <div class="container_quest" id="q2">
+                <div class="login_quest" style="padding-right: 20px;">
+                    <div class="content-login-title_quest">
+                        <div id="message"></div>
+                        <p class="title_quest">Personal Data</p>
+                    </div>
+
+                    <form  id="form2" onsubmit="return saveFormData('form2');" class="content-login_form">
+                        <div class="content-login_form">
+                            <p class="input_above_quest">Name</p>
+                            <input type="text" class="name_quest" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="content-login">
+                            <p class="input_above_quest">Surname</p>
+                            <input type="text" class="surname_quest" name="surname" placeholder="Enter your surname" required>
+                        </div>
+                    </form>
+                    <div class="content-login_quest" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="enter_next" id="2b_quest_p">◄</button>
+                        <button type="submit" name="submit" class="enter_close" id="2b_quest_c">Close</button>
+                        <button type="submit" name="submit" class="enter_prev" id="2b_quest_n">►</button>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!--Card 3-->
+            <div class="container_d_quest" id="q3">
+                <div class="login_quest" style="padding-right: 20px;">
+                    <div class="content-login-title_quest">
+                        <div id="message"></div>
+                        <p class="title_quest">Personal Data</p>
+                    </div>
+
+                    <form  id="form3" onsubmit="return saveFormData('form3');" class="content-login_quest">
+                        <div class="content-login_form">
+                            <p class="input_above_quest">Date of Birth</p>
+                            <input type="date" class="date_quest" name="date" placeholder="Enter your bday" required>
+                        </div>
+                        <div class="content-login">
+                            <p class="input_above_quest">Phone Number</p>
+                            <input type="text" class="pnumber_quest" name="pnumber" placeholder="Enter your phone number" required>
+                        </div>
+                    </form>
+                    <div class="content-login_quest" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="enter_next" id="3b_quest_p">◄</button>
+                        <button type="submit" name="submit" class="enter_close" id="3b_quest_c">Close</button>
+                        <button type="submit" name="submit" class="enter_prev" id="3b_quest_n">►</button>
+                    </div>
+                </div>
+            </div>
+
+             <!--Card 4-->
+             <div class="container_e_quest" id="q4">
+                <div class="login_quest" style="padding-right: 20px;">
+                    <div class="content-login-title_quest">
+                        <div id="message_e_quest"></div>
+                        <p class="title_quest">Personal Data</p>
+                    </div>
+
+                    <form  id="form4" onsubmit="return saveFormData('form4');" class="content-login_e_quest">
+                        <div class="content-login_form">
+                            <p class="input_above_quest">Disability Grade</p>
+                            <div class="radio_menu_quest">
+                                <div class="radio_quest">
+                                    <input type="radio" class="dis_grade_quest" name="dis_grade" value="0" placeholder="Healthy" required>
+                                    <input type="radio" class="dis_grade_quest" name="dis_grade" value="1" placeholder="Average" required>
+                                    <input type="radio" class="dis_grade_quest" name="dis_grade" value="2" placeholder="Pronounced" required>
+                                    <input type="radio" class="dis_grade_quest" name="dis_grade" value="3" placeholder="Severe" required>
+                                </div>
+                                <div class="grades_quest">
+                                    <p class="input_above_e_quest">Healthy</p>
+                                    <p class="input_above_e_quest">Average</p>
+                                    <p class="input_above_e_quest">Pronounced</p>
+                                    <p class="input_above_e_quest">Severe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="content-login_quest" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="enter_next" id="4b_quest_p">◄</button>
+                        <button type="submit" name="submit" class="enter_close" id="4b_quest_c">Close</button>
+                        <button type="submit" name="submit" class="enter_prev" id="4b_quest_n">►</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card 5-->
+            <div class="container_f_quest" id="q5">
+                <div class="login_quest" style="padding-right: 20px;">
+                    <div class="content-login-title_quest">
+                        <div id="message_f"></div>
+                        <p class="title_quest">Personal Data</p>
+                    </div>
+                    <form  id="form5" onsubmit="return saveFormData('form5');" class="content-login_quest">
+                        <div>
+                            <p class="input_above_f_quest">Disability Date</p>
+                            <input type="date" class="date_quest_2" name="date" placeholder="Date since when you've been disabled" required>
+                        </div>
+                    </form>
+                    <div class="content-login_quest" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="enter_next" id="5b_quest_p">◄</button>
+                        <button type="submit" name="submit" class="enter_close" id="5b_quest_c">Close</button>
+                        <button type="submit" name="submit" class="enter_prev" id="5b_quest_n">►</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--PERSONAL DATA ----------------------------------------------------------------------------------------->
+            <!--Card 6-->
+            <div class="container_g_quest" id="q6">
+                <div class="login_quest" style="padding-right: 20px;">
+                    <div class="content-login-title_g_quest">
+                        <div id="message_g"></div>
+                        <p class="title_quest">Personal Data</p>
+                    </div>
+
+                    <form  id="form6" onsubmit="return saveFormData('form6');" class="content-login_form">
+
+                        <div class="content-login_g_quest">
+                            <p class="input_above_quest">Stages of Contribution</p>
+                            <input type="text" class="years_quest" name="years" placeholder="Amount of contributive stages" readonly>
+                        </div>
+                        <div class="check_quest">
+                            <div class="content-login_g_quest">
+                                <div>
+                                <pre class="input_above_gg_quest">Consider noncontributory 
+stages of contribution?</pre>
+                                </div>
+                                <div style="padding-left: 20px;">
+                                <input type="checkbox" class="checker_quest" name="checker" id="my_checker" placeholder="Amount of contributive stages">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="content-login_quest" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="enter_next" id="6b_quest_p">◄</button>
+                        <button type="submit" name="submit" class="enter_close" id="6b_quest_c">Close</button>
+                        <button type="submit" name="submit" class="enter_prev" id="6b_quest_n">►</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Contributory Period ------------------------------------------------------------------------------------------------->
+            
+            <div class="container_d_con" id="con">
+                <div class="login_con" style="padding-right: 20px;">
+                    <div class="content-login-title_con">
+                        <p class="title_con">Contributory Data</p>
+                        <p class="input_above_con" style="display: flex; justify-content: center;">Period #<span id="period_number" style="color: rgb(155, 154, 240);">1</span></p>
+                    </div>
+
+                    <form  id="form3" onsubmit="return saveFormData('form3');" class="content-login_con">
+                        
+                        <!--Repeatable data-->
+                        <div class="repeat_con">
+                            <div class="date_div_con" style="padding-left: 15px;">
+                                <!--Start Date-->
+                                <div class="content-login_con" style="padding-right: 30px;">
+                                    <p class="input_above_con">Start Date</p>
+                                    <input type="date" class="date_con_1" name="date" id="startDate"  name="StartDate">
+                                </div>
+        
+                                <!--End Date-->
+                                <div class="content-login_con">
+                                    <p class="input_above_con">End Date</p>
+                                    <input type="date" class="date_con_2" name="date" name="EndDate" id="endDate" >
+                                </div>
+                            </div>
+                            <div class="content-login-rate_con" style="padding-left: 20px;">
+                                <input type="number" class="rate_con" name="rate" placeholder="Rate %">
+                                <div style="padding-left: 20px;"></div>
+                                <input type="number" class="salary_by_rate_con" placeholder="Start Salary" name="salary_by_rate">
+                                <div style="padding-left: 20px;"></div>
+                                <button type="button" class="set_salary_rate_con" name="set_salary_rate">Set</button>
+                            </div>
+
+                            <div class="content-login-rate_con" style="padding-left: 20px;">
+                                <input type="number" class="salary_common_con" placeholder="Salary All" name="CommonSalary">
+                                <div style="padding-left: 24px;"></div>
+                                <button type="button" class="set_salary_common_con" name="CommonSalarySet">Set</button>
+                            </div>
+                            
+                            <div class="content-login-select_con">
+                                <select name="job" id="jobs" class="select_con" >
+                                    <!--K_np = 1.0-->
+                                    <option value="1">Service and trade</option>
+                                    <option value="2">Agriculture</option>
+                                    <option value="3">Machine and plant operator</option>
+                                    <option value="4">Machine and equipment assembler</option>
+                                    <option value="5">Unskilled worker</option>
+                                    <option value="6">Low qualification worker</option>
+
+                                    <!--K_np = 1.2-->
+                                    <option value="7">Administrative official</option>
+                                    <option value="8">Average qualification worker</option>
+
+                                    <!--K_np = 1.5-->
+                                    <option value="9">Qualified technician</option>
+                                    <option value="10">High qualification worker</option>
+
+                                    <!--K_np = 1.8-->
+                                    <option value="11">Specialist with higher degree</option>
+
+                                    <!--K_np = 2.0-->
+                                    <option value="12">Legislators, members of the executive</option>
+                                    <option value="13">Management staff at structural subdivision level</option>
+
+                                    <!--K_np = 3.0-->
+                                    <option value="14">Head of units or their deputy</option>
+                                </select>
+                            </div>
+                             <!--Collapsible-->
+
+                            <div class="colll">
+                             <div class="content-login-col_con">
+                                <button type="button" class="collapsible_con" >Simple collapsible</button>
+                             
+                                <div class="content_con" style="margin-top: 5px; border-radius: 5px;" class="content-login-rate_con" name="Insides">
+                                    <div class="content-collapse_con" name="YearManipulator" >
+                                        <div style="display:flex; justify-content:  flex-start;">
+                                            <p class="input_above_collapse_con_year">year_number</p>
+                                        </div>
+
+                                        <div style="display:flex; justify-content:  flex-end;">
+                                            <input type="number" class="set_year_con" name="YearSalaryInput" placeholder="New Amount">
+                                            <button type="button" class="set_year_button_con" name="YearSalarySet">Set</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-collapse_con" name="MonthlyStatus">
+                                        <div style="display:flex; justify-content:  flex-start;">
+                                            <p class="input_above_collapse_con_month" style="width: 70px; text-align: center">month_name</p>
+                                        </div>
+                                        <div style="display:flex; justify-content:  flex-end;">
+                                            <input type="number" class="monthly_salary_con" name="year_salary" placeholder="New Amount"> 
+                                        </div>
+                                     </div>
+
+
+                                </div>                                
+                             </div>
+
+                             </div>
+                            <div>
+                            </div>
+                        </div>
+                        <div class="content-collapse_con" style="padding-left: 20px; padding-top: 21px;">
+                            <button type="submit" name="submit" class="enter_next" id="b_con_p">◄</button>
+                            <div style="padding: 2px;"></div>
+                            <button type="submit" name="submit" class="enter_close" id="b_con_c">Close</button>
+                            <div style="padding: 2px;"></div>
+                            <button type="submit" name="submit" class="enter_prev" id="b_con_n">►</button>
+                        </div>
+                    </form>
+        
+                </div>
+            </div>
+
+
+
+
+            <!--Noncontributory ------------------------------------------------------------------------------------>
+             <!--Card 1-->
+             <div class="container_e_non" id="non">
+                <div class="login_quest" style="padding-right: 20px;">
+                    <div class="content-login-title_non">
+                        <p class="title_quest" style="display: flex; justify-content: center;">Noncontributory Data</p>
+                        <p class="input_above_non" style="display: flex; justify-content: center;">Period #<span id="period_number_non" style="color: rgb(155, 154, 240);">1</span></p>
+                    </div>
+
+                    <form  id="form4" onsubmit="return saveFormData('form4');" class="content-login_non">
+                        
+                        <!--Repeatable data-->
+                        <div class="repeat_non">
+                            <div class="date_div_non" style="padding-left: 15px;">
+                                <!--Start Date-->
+                                <div class="content-login_non" style="padding-right: 30px;">
+                                    <p class="input_above_non">Start Date</p>
+                                    <input type="date" class="date_non_1" name="date" id="startDate"  name="StartDate"required>
+                                </div>
+        
+                                <!--End Date-->
+                                <div class="content-login_non">
+                                    <p class="input_above_non">End Date</p>
+                                    <input type="date" class="date_non_2" name="date" name="EndDate" id="endDate" required>
+                                </div>
+                            </div>
+
+
+                            <div class="content-login-select_non" style="padding-right: 50px;">
+                                <p class="input_above_non" style="display: flex; justify-content: left; padding-left: 70px;">Noncontributory period of</p>
+                                <select name="job" id="jobs" class="select_non" >
+                                    <!--Period of:-->
+                                    <option value="1">Fulfillment of military service within the term or with a reduced term</option>
+                                    <option value="2">Performance of military service by contract or other similar service</option>
+                                    <option value="3">Care of a child up to the age of 3 by one of the parents or guardian</option>
+                                    <option value="4">Insured and benefited from compensation for temporary incapacity for work, unemployment compensation, allowance for professional integration or reintegration</option>
+                                    <option value="5">Care of a child with a severe disability under the age of 18 or a person with a severe disability by one of the parents, by the guardian or curator, until employment as a personal assistant</option>
+                                    <option value="6">Residency period in compulsory postgraduate education</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        
+                    </form>
+                    <div class="content-login_quest" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="enter_next" id="b_non_p">◄</button>
+                        <button type="submit" name="submit" class="enter_close" id="b_non_c">Close</button>
+                        <button type="submit" name="submit" class="enter_prev" id="b_non_n">►</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Scion ------------------------------------------------------------------------------------>
+             <!--Card 1-->
+             <div class="container_scion" id="scion">
+                <div class="login_quest" style="padding-right: 20px;">
+                    <div class="content-login-title_non">
+                        <p class="title_quest" style="display: flex; justify-content: center;">Descendant Pension</p>
+                    </div>
+
+                    <form  id="form4" onsubmit="return saveFormData('form4');" class="content-login_non">
+                        
+                        <!--Repeatable data-->
+                        <div class="repeat_non">
+                            <div class="content-login_form">
+                                <p class="input_above_quest">Funder</p>
+                                <input type="text" class="name_scion" name="name" placeholder="Enter funder's username" required>
+                            </div>
+                            <div class="content-login-select_non" style="padding-right: 50px;">
+                                <p class="input_above_non" style="display: flex; justify-content: left; padding-left: 70px;">Satisfied Category</p>
+                                <select name="job" id="jobs" class="select_scion" >
+                                    <!--Period of:-->
+                                    <option value="1">None</option>
+                                    <option value="2">Continuing the studies in the vocational, secondary, or superior institutions</option>
+                                    <option value="3">Married to a person that died for 15 years, and that was about to receive the pension</option>
+                                    <option value="4">Surviving spouse or tutor that's taking care of a child under 3 years old</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        
+                    </form>
+                    <div class="content-login_quest" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="enter_close" id="b_scion_c">Close</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--script src="scripts/pc.js"></script-->
+            <script src="scripts/dashboard.js"></script>
+        </div>
+    </div>
+</body>
+</html>
+

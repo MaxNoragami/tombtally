@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/loginstyle.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="img/icon.png">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="container">
+            <div class="rectangle_1"></div>
+            <div class="rectangle_2"></div>
+            <div class="login" style="padding-right: 20px;">
+                <div class="content-login-title">
+                    <p class="title">TombTally</p>
+                </div>
+                <form action="../php/save_credentials.php" method="post" class="content-login">
+                    <div class="content-login">
+                        <p class="input_above">Username</p>
+                        <input type="text" class="username" name="username" placeholder="Enter your username" required>
+                    </div>
+                    <div class="content-login">
+                        <p class="input_above">Password</p>
+                        <input type="password" class="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <div class="content-login" style="padding-left: 20px;">
+                        <button type="submit" name="submit" class="enter">Sign up</button>
+                    </div>
+                </form>
+                <div class="content-login" style="padding-left: 20px;">
+                    <a href="index.html" class="link">Log in with an existent account</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            // Create a new XMLHttpRequest object
+            var xhr = new XMLHttpRequest();
+        
+            // Define the PHP script URL
+            var phpScriptUrl = '/php/delete_temp.php';
+        
+            // Open a connection to the PHP script
+            xhr.open('GET', phpScriptUrl, true);
+        
+            // Set up the onload function to handle the response
+            xhr.onload = function() {
+                if (xhr.status >= 200 && xhr.status < 300) {
+                    // PHP script executed successfully
+                    console.log(xhr.responseText);
+                } else {
+                    // Error occurred while executing PHP script
+                    console.error('Error occurred while executing PHP script');
+                }
+            };
+        
+            // Send the request to execute the PHP script
+            xhr.send();
+        };
+        </script>
+
+</body>
+</html>

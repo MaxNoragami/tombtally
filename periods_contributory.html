@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylep.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="img/icon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <title>Contributory</title>
+</head>
+<body>
+    <div class="bg">
+        <div class="rectangle_1"></div>
+        <div class="rectangle_2"></div>
+        <div class="wrapper">
+            <!--Card 3-->
+            <div class="container_d" id="3">
+                <div class="login" style="padding-right: 20px;">
+                    <div class="content-login-title">
+                        <p class="title">TombTally</p>
+                        <p class="input_above" style="display: flex; justify-content: center;">Period #<span id="period_number" style="color: rgb(155, 154, 240);">1</span></p>
+                    </div>
+
+                    <form  id="form3" onsubmit="return saveFormData('form3');" class="content-login">
+                        
+                        <!--Repeatable data-->
+                        <div class="repeat">
+                            <div class="date_div" style="padding-left: 15px;">
+                                <!--Start Date-->
+                                <div class="content-login" style="padding-right: 30px;">
+                                    <p class="input_above">Start Date</p>
+                                    <input type="date" class="date" name="date" id="startDate"  name="StartDate"required>
+                                </div>
+        
+                                <!--End Date-->
+                                <div class="content-login">
+                                    <p class="input_above">End Date</p>
+                                    <input type="date" class="date" name="date" name="EndDate" id="endDate" required>
+                                </div>
+                            </div>
+                            <div class="content-login-rate" style="padding-left: 20px;">
+                                <input type="number" class="rate" name="rate" placeholder="Rate %">
+                                <div style="padding-left: 20px;"></div>
+                                <input type="number" class="salary_by_rate" placeholder="Start Salary" name="salary_by_rate">
+                                <div style="padding-left: 20px;"></div>
+                                <button type="button" class="set_salary_rate" name="set_salary_rate">Set</button>
+                            </div>
+
+                            <div class="content-login-rate" style="padding-left: 20px;">
+                                <input type="number" class="salary_common" placeholder="Salary All" name="CommonSalary">
+                                <div style="padding-left: 24px;"></div>
+                                <button type="button" class="set_salary_common" name="CommonSalarySet">Set</button>
+                            </div>
+                            
+                            <div class="content-login-select" style="padding-right: 50px;">
+                                <select name="job" id="jobs" class="select" >
+                                    <!--K_np = 1.0-->
+                                    <option value="1">Service and trade</option>
+                                    <option value="2">Agriculture</option>
+                                    <option value="3">Machine and plant operator</option>
+                                    <option value="4">Machine and equipment assembler</option>
+                                    <option value="5">Unskilled worker</option>
+                                    <option value="6">Low qualification worker</option>
+
+                                    <!--K_np = 1.2-->
+                                    <option value="7">Administrative official</option>
+                                    <option value="8">Average qualification worker</option>
+
+                                    <!--K_np = 1.5-->
+                                    <option value="9">Qualified technician</option>
+                                    <option value="10">High qualification worker</option>
+
+                                    <!--K_np = 1.8-->
+                                    <option value="11">Specialist with higher degree</option>
+
+                                    <!--K_np = 2.0-->
+                                    <option value="12">Legislators, members of the executive</option>
+                                    <option value="13">Management staff at structural subdivision level</option>
+
+                                    <!--K_np = 3.0-->
+                                    <option value="14">Head of units or their deputy</option>
+                                </select>
+                            </div>
+                             <!--Collapsible-->
+
+            
+                             <div class="content-login-col" style="padding-right: 45px;">
+                                <button type="button" class="collapsible" >Simple collapsible</button>
+                             
+                                <div class="content" style="margin-left: 45px; margin-top: 5px; border-radius: 5px;" class="content-login-rate" name="Insides">
+                                    <div class="content-collapse" name="YearManipulator">
+                                        <div style="padding-left: 45px;"></div>
+                                        <p class="input_above_collapse">year_number</p>
+                                        <div style="padding-left: 60px;"></div>
+                                        <p class="input_above_collapse">MONTH</p>
+                                        <div style="padding-left: 60px;"></div>
+                                        <input type="number" class="set_year" name="YearSalaryInput" placeholder="New Amount">
+                                        <div style="padding-left: 10px;"></div>
+                                        <button type="button" class="set_year_button" name="YearSalarySet">Set</button>
+                                    </div>
+
+                                    <div class="content-collapse" name="MonthlyStatus">
+                                        <div style="padding-left: 45px;"></div>
+                                        <div style="padding-left: 60px;"></div>
+                                        <p class="input_above_collapse" style="width: 70px; text-align: center">month_name</p>
+                                        <div style="padding-left: 90px;"></div>
+                                        <input type="number" class="monthly_salary" name="year_salary" placeholder="New Amount"> 
+                                    </div>
+
+
+                                </div>                                
+                             </div>
+                            <div>
+                            </div>
+                        </div>
+                        
+
+                        <div class="content-login-button" style="padding-left: 20px; display: flex; justify-content: center;">
+                            <button type="submit" name="submit" class="enter" id="button1">Next</button>
+                        </div>
+                    </form>
+                    <div class="content-login-link" style="padding-left: 20px; display: flex; justify-content: center;">
+                        <button type="submit" name="submit" class="link" style="border: none; background: none;">Cancel Registration</button>
+                    </div>
+                </div>
+            </div>
+        
+            <!--script src="scripts/pc.js"></script-->
+            <script src="scripts/multiplicator.js"></script>
+        </div>
+    </div>
+</body>
+</html>
+
