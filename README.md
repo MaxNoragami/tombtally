@@ -25,5 +25,5 @@
  9. Open the page opened in your browser;
  10. Enjoy using TombTally! 🎉
 
-💾 This here you could download the Project's Report in case you need more info: 
+💾 This here you could download the Project's Report in case you need more info: [https://drive.google.com/file/d/1ZnGKTrPwEMKyw18MROHPcJ0UwLFQUPGT/view?usp=sharing](https://tinyurl.com/tombtally)
 
